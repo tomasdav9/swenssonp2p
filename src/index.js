@@ -199,6 +199,6 @@ module.exports = (options) => {
     on: emitter.on.bind(emitter),
     off: emitter.off.bind(emitter),
     id: NODE_ID,
-    neighbors: () => neighbors.keys(),
+    neighbors: neighbors
   };
 };
